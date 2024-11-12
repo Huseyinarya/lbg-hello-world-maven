@@ -9,7 +9,7 @@ pipeline {
         stages {
             stage('Checkout') {
                 steps {
-                    // Get some code from a GitHub repository
+                    // Get some code from a GitHub rep ository
 
                     git branch: 'main', url: 'https://github.com/Huseyinarya/lbg-hello-world-maven.git'
                 }
